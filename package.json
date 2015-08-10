@@ -18,6 +18,9 @@
   "homepage": "https://github.com/lindseybrown4/6_week#readme",
   "dependencies": {
     "body-parser": "^1.13.3",
-    "express": "^4.13.3"
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "request": "^2.60.0",
+    "twilio": "^2.2.1"
   }
 }
