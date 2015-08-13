@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app='ecommerce'>
+    <head>
+    </head>
+    <body ng-controller='MainCtrl'>
+        
+        <input type="text" placeholder="name" ng-model='bird.name'/>
+        <input type="text" placeholder="order" ng-model='bird.order'/>
+        <input type="text" placeholder="status" ng-model='bird.status'/>
+        <button ng-click='createBird(bird)'>Create Bird</button>
+
+        <button ng-click='getBirds()'>Get Birds!</button>
+        
+        <h1>{{ birds }}</h1>
+
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/controllers/MainCtrl.js"></script>
+        <script type="text/javascript" src="js/services/dataService.js"></script>
+    </body>
+</html>

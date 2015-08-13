@@ -10,8 +10,8 @@ var cors = require('cors');
 var request = require('request');
 var twilio = require('twilio'); 
 
-var accountSid = ''; 
-var authToken = ''; 
+var accountSid = 'AC486ef3f9933ad9689b598773ff99d226'; 
+var authToken = '17d9fd68edef8ce2d4d04f88ed763276'; 
  
 var client = require('twilio')(accountSid, authToken); 
 
